@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 def pascal_triangle(n):
-    '''
-    Returns a list of intergers
-    '''
     if n <= 0:
         return []
     for i in range(n):
