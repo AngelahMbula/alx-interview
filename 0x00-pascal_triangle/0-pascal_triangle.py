@@ -1,12 +1,14 @@
 #!/usr/bin/python3
-"""Function returns list of int rep Pascal triangle"""
+'''
+Function returns list of int rep Pascal triangle
+'''
 from math import factorial
 
 
 def pascal_triangle(n):
-    """
+    '''
     Returns a list of intergers
-    """
+    '''
     if n <= 0:
         return []
     for i in range(n):
