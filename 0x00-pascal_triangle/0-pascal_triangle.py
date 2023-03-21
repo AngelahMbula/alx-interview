@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 def pascal_triangle(n):
+    from math import factorial
     if n <= 0:
         return []
     for i in range(n):
