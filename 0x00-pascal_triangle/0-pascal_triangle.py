@@ -2,9 +2,6 @@
 
 
 def pascal_triangle(n):
-    '''
-    returns representation of pascals triangle.
-    '''
     t = []
     if n <= 0:
         return []
