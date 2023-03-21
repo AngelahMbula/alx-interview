@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-'''
-Function returns list of int rep Pascal triangle
-'''
 from math import factorial
 
 
