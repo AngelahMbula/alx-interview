@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """contains the nqueens code"""
 
-import sys
+from sys import exit, argv
 
 
 def queens(N, i, j, my_list):
