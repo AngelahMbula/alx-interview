@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""makeChange function."""
+
+
 def makeChange(coins, total):
     if total <= 0:
         return 0
