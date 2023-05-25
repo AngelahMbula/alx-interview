@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+"""Function island_perimeter."""
+
+
 def island_perimeter(grid):
+    """returns the perimeter of the island described in grid."""
     rows = len(grid)
     cols = len(grid[0])
 
